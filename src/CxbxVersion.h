@@ -1,10 +1,10 @@
 #pragma once
 
-#include "Version.h"
+extern const char* CxbxVersionStr;
+extern const char *CxbxrHashBuild;
 
-/*! version string dependent on trace flag */
-#ifndef _DEBUG_TRACE
-#define _CXBX_VERSION _GIT_VERSION " (" __DATE__  ")"
-#else
-#define _CXBX_VERSION _GIT_VERSION "-Trace (" __DATE__  ")"
-#endif
+// Note: GitVersionMaxLength should be large enough to accomodate the longest git version string we can practically expect to have. This is necessary
+// to avoid possible mismatches in the string length which can happen if the user mixes different cxbxr versions
+inline constexpr size_t GitVersionMaxLength = 80;
+const char *const GetGitVersionStr();
+const size_t GetGitVersionLength();

@@ -1,0 +1,111 @@
+# Labels are in alphabetical order.
+
+cmake:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'CMake*'
+    - '**/CMakeLists.txt'
+    - '**/*.cmake'
+
+cpu-emulation:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/devices/x86/**'
+
+deployment:
+- changed-files:
+  - any-glob-to-any-file:
+    - '*.yml'
+    - '.github/workflows/CI.yml'
+
+file-system:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/kernel/support/EmuFile*'
+
+graphics:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/hle/D3D8/**'
+    - 'src/core/hle/XGRAPHIC/**'
+    - 'src/devices/video/**'
+    - 'src/gui/*Video*'
+
+HLE:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/hle/**'
+    - 'src/core/kernel/**'
+
+informational:
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*Logging*'
+    - '**/*Logging*/**'
+    - '**/README.md'
+
+input:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/common/input/**'
+    - 'src/core/hle/XAPI/input/**'
+    - 'src/devices/usb/**'
+    - 'src/gui/controllers/**'
+    - 'src/gui/*Input*'
+
+kernel:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/kernel/**'
+
+LLE:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/devices/**'
+
+memory:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/kernel/memory-manager/**'
+
+networking:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/hle/XONLINE/**'
+    - 'src/devices/network/**'
+    - 'src/gui/*Network*'
+
+sound:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/common/audio/**'
+    - 'src/core/hle/DSOUND/**'
+    - 'src/core/hle/XACTENG/**'
+    - 'src/devices/audio/**'
+    - 'src/gui/*Audio*'
+
+modules:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'import/**'
+
+threading:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/kernel/support/EmuFS*'
+
+timing:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/common/Timer*'
+
+user interface:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/core/common/imgui/*'
+    - 'src/gui/**'
+
+xbdm:
+- changed-files:
+  - any-glob-to-any-file:
+    - 'src/common/xbdm/**'

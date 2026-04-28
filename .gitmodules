@@ -1,0 +1,49 @@
+[submodule "import/subhook"]
+	path = import/subhook
+	url = https://github.com/Cxbx-Reloaded/subhook.git
+	shallow = true
+[submodule "import/cs_x86"]
+	path = import/cs_x86
+	url = https://github.com/x1nixmzeng/cs_x86.git
+[submodule "import/XbSymbolDatabase"]
+	path = import/XbSymbolDatabase
+	url = https://github.com/Cxbx-Reloaded/XbSymbolDatabase.git
+[submodule "import/simpleini"]
+	path = import/simpleini
+	url = https://github.com/brofield/simpleini.git
+	shallow = true
+[submodule "import/libtommath"]
+	path = import/libtommath
+	url = https://github.com/libtom/libtommath.git
+	branch = master
+	shallow = true
+[submodule "import/libtomcrypt"]
+	path = import/libtomcrypt
+	url = https://github.com/libtom/libtomcrypt.git
+	branch = master
+	shallow = true
+[submodule "import/xxHash"]
+	path = import/xxHash
+	url = https://github.com/Cyan4973/xxHash.git
+	branch = release
+	shallow = true
+[submodule "import/imgui"]
+	path = import/imgui
+	url = https://github.com/ocornut/imgui.git
+	shadow = true
+[submodule "import/SDL2"]
+	path = import/SDL2
+	url = https://github.com/libsdl-org/SDL
+	shallow = true
+[submodule "import/libusb"]
+	path = import/libusb
+	url = https://github.com/Cxbx-Reloaded/libusb
+	branch = deadlock_fix
+	shallow = true
+[submodule "import/nv2a_vsh_cpu"]
+	path = import/nv2a_vsh_cpu
+	url = https://github.com/abaire/nv2a_vsh_cpu.git
+[submodule "import/mio"]
+	path = import/mio
+	url = https://github.com/mandreyel/mio.git
+	shadow = true
